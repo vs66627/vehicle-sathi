@@ -1,0 +1,4 @@
+User-agent: *
+Allow: /
+
+Sitemap: https://vs66627.github.io/vehicle-sathi/sitemap.xml
