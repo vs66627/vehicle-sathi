@@ -96,10 +96,21 @@
 
     <div style="max-width: 700px; margin: auto;">
 
-        <form action="#" method="post">
+        <!-- Vehicle Sathi Vendor Registration Form -->
+        <form action="https://formspree.io/f/mgaoeynl"
+              method="POST">
+
+            <!-- Email subject -->
+            <input type="hidden"
+                   name="_subject"
+                   value="New Vehicle Sathi Vendor Registration">
+
 
             <div style="margin-bottom: 1rem;">
-                <label for="vendor-name"><strong>Vendor / Business Name</strong></label>
+                <label for="vendor-name">
+                    <strong>Vendor / Business Name</strong>
+                </label>
+
                 <input
                     type="text"
                     id="vendor-name"
@@ -111,7 +122,10 @@
 
 
             <div style="margin-bottom: 1rem;">
-                <label for="owner-name"><strong>Owner Name</strong></label>
+                <label for="owner-name">
+                    <strong>Owner Name</strong>
+                </label>
+
                 <input
                     type="text"
                     id="owner-name"
@@ -123,7 +137,10 @@
 
 
             <div style="margin-bottom: 1rem;">
-                <label for="phone"><strong>Phone Number</strong></label>
+                <label for="phone">
+                    <strong>Phone Number</strong>
+                </label>
+
                 <input
                     type="tel"
                     id="phone"
@@ -135,7 +152,10 @@
 
 
             <div style="margin-bottom: 1rem;">
-                <label for="email"><strong>Email Address</strong></label>
+                <label for="email">
+                    <strong>Email Address</strong>
+                </label>
+
                 <input
                     type="email"
                     id="email"
@@ -146,7 +166,9 @@
 
 
             <div style="margin-bottom: 1rem;">
-                <label for="category"><strong>Business Category</strong></label>
+                <label for="category">
+                    <strong>Business Category</strong>
+                </label>
 
                 <select
                     id="category"
@@ -167,7 +189,9 @@
 
 
             <div style="margin-bottom: 1rem;">
-                <label for="vehicle-type"><strong>Vehicle Type</strong></label>
+                <label for="vehicle-type">
+                    <strong>Vehicle Type</strong>
+                </label>
 
                 <select
                     id="vehicle-type"
@@ -185,7 +209,10 @@
 
 
             <div style="margin-bottom: 1rem;">
-                <label for="city"><strong>City</strong></label>
+                <label for="city">
+                    <strong>City</strong>
+                </label>
+
                 <input
                     type="text"
                     id="city"
@@ -197,7 +224,9 @@
 
 
             <div style="margin-bottom: 1rem;">
-                <label for="address"><strong>Shop Address</strong></label>
+                <label for="address">
+                    <strong>Shop Address</strong>
+                </label>
 
                 <textarea
                     id="address"
@@ -210,7 +239,9 @@
 
 
             <div style="margin-bottom: 1rem;">
-                <label for="description"><strong>Business Description</strong></label>
+                <label for="description">
+                    <strong>Business Description</strong>
+                </label>
 
                 <textarea
                     id="description"
@@ -230,9 +261,9 @@
 
         </form>
 
+
         <p style="margin-top: 1.5rem; color: var(--text-light); font-size: 0.9rem;">
-            Note: This registration form is currently a website interface.
-            Submission functionality can be connected to the Vehicle Sathi backend in the future.
+            Your registration details will be securely sent to the Vehicle Sathi team for review.
         </p>
 
     </div>
@@ -334,4 +365,4 @@
 <script src="script.js"></script>
 
 </body>
-                                                                        </html>
+</html>
