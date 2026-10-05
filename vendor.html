@@ -1,0 +1,337 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>For Vendors | Vehicle Sathi</title>
+
+    <meta name="description" content="Join Vehicle Sathi as a vehicle parts and service vendor. Sell spare parts, tyres, engine oil, batteries and other vehicle products.">
+
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+<header>
+    <div class="nav-container">
+
+        <a href="index.html" class="logo">
+            <img src="assets/logo.png" alt="Vehicle Sathi Logo" class="logo-img">
+        </a>
+
+        <button class="hamburger" aria-label="Toggle menu">☰</button>
+
+        <nav class="nav-links">
+            <a href="index.html">Home</a>
+            <a href="cities.html">Cities</a>
+            <a href="formmechanics.html">For Mechanics</a>
+            <a href="vendor.html">For Vendors</a>
+            <a href="about.html">About</a>
+            <a href="contact.html">Contact</a>
+
+            <a href="https://play.google.com/store/apps/details?id=com.vehiclesathi_app"
+               class="btn-primary"
+               target="_blank"
+               rel="noopener noreferrer">
+                Download App
+            </a>
+        </nav>
+
+    </div>
+</header>
+
+
+<section class="section">
+
+    <h1 class="section-title">Join Vehicle Sathi as a Vendor</h1>
+
+    <div style="max-width: 850px; margin: auto; text-align: center;">
+
+        <p style="font-size: 1.1rem; line-height: 1.8; color: var(--text-light);">
+            Are you a vehicle parts or automotive product seller?
+            Join Vehicle Sathi and connect your business with vehicle owners
+            looking for trusted vehicle products and services.
+        </p>
+
+    </div>
+
+
+    <div style="
+        max-width: 900px;
+        margin: 3rem auto;
+        display: grid;
+        grid-template-columns: repeat(auto-fit, minmax(220px, 1fr));
+        gap: 1.5rem;
+    ">
+
+        <div style="padding: 1.5rem; border-radius: 12px; background: #f5f7fa; text-align: center;">
+            <h3>🔧 Spare Parts</h3>
+            <p>Sell vehicle spare parts and accessories.</p>
+        </div>
+
+        <div style="padding: 1.5rem; border-radius: 12px; background: #f5f7fa; text-align: center;">
+            <h3>🛞 Tyres</h3>
+            <p>List tyres and related products.</p>
+        </div>
+
+        <div style="padding: 1.5rem; border-radius: 12px; background: #f5f7fa; text-align: center;">
+            <h3>🛢️ Engine Oil</h3>
+            <p>Offer engine oil, mobil and lubricants.</p>
+        </div>
+
+        <div style="padding: 1.5rem; border-radius: 12px; background: #f5f7fa; text-align: center;">
+            <h3>🔋 Batteries</h3>
+            <p>List vehicle batteries and related products.</p>
+        </div>
+
+    </div>
+
+</section>
+
+
+<section class="section" style="background: #f8fafc;">
+
+    <h2 class="section-title">Vendor Registration</h2>
+
+    <div style="max-width: 700px; margin: auto;">
+
+        <form action="#" method="post">
+
+            <div style="margin-bottom: 1rem;">
+                <label for="vendor-name"><strong>Vendor / Business Name</strong></label>
+                <input
+                    type="text"
+                    id="vendor-name"
+                    name="vendor_name"
+                    placeholder="Enter your business name"
+                    required
+                    style="width:100%; padding:12px; margin-top:6px;">
+            </div>
+
+
+            <div style="margin-bottom: 1rem;">
+                <label for="owner-name"><strong>Owner Name</strong></label>
+                <input
+                    type="text"
+                    id="owner-name"
+                    name="owner_name"
+                    placeholder="Enter owner name"
+                    required
+                    style="width:100%; padding:12px; margin-top:6px;">
+            </div>
+
+
+            <div style="margin-bottom: 1rem;">
+                <label for="phone"><strong>Phone Number</strong></label>
+                <input
+                    type="tel"
+                    id="phone"
+                    name="phone"
+                    placeholder="Enter phone number"
+                    required
+                    style="width:100%; padding:12px; margin-top:6px;">
+            </div>
+
+
+            <div style="margin-bottom: 1rem;">
+                <label for="email"><strong>Email Address</strong></label>
+                <input
+                    type="email"
+                    id="email"
+                    name="email"
+                    placeholder="Enter email address"
+                    style="width:100%; padding:12px; margin-top:6px;">
+            </div>
+
+
+            <div style="margin-bottom: 1rem;">
+                <label for="category"><strong>Business Category</strong></label>
+
+                <select
+                    id="category"
+                    name="category"
+                    required
+                    style="width:100%; padding:12px; margin-top:6px;">
+
+                    <option value="">Select category</option>
+                    <option value="spare-parts">Spare Parts</option>
+                    <option value="tyres">Tyres</option>
+                    <option value="engine-oil">Engine Oil / Mobil</option>
+                    <option value="battery">Battery</option>
+                    <option value="accessories">Vehicle Accessories</option>
+                    <option value="other">Other</option>
+
+                </select>
+            </div>
+
+
+            <div style="margin-bottom: 1rem;">
+                <label for="vehicle-type"><strong>Vehicle Type</strong></label>
+
+                <select
+                    id="vehicle-type"
+                    name="vehicle_type"
+                    style="width:100%; padding:12px; margin-top:6px;">
+
+                    <option value="">Select vehicle type</option>
+                    <option value="bike">Bike / Motorcycle</option>
+                    <option value="car">Car</option>
+                    <option value="commercial">Commercial Vehicle</option>
+                    <option value="all">Multiple Vehicle Types</option>
+
+                </select>
+            </div>
+
+
+            <div style="margin-bottom: 1rem;">
+                <label for="city"><strong>City</strong></label>
+                <input
+                    type="text"
+                    id="city"
+                    name="city"
+                    placeholder="Enter your city"
+                    required
+                    style="width:100%; padding:12px; margin-top:6px;">
+            </div>
+
+
+            <div style="margin-bottom: 1rem;">
+                <label for="address"><strong>Shop Address</strong></label>
+
+                <textarea
+                    id="address"
+                    name="address"
+                    rows="4"
+                    placeholder="Enter your complete shop address"
+                    required
+                    style="width:100%; padding:12px; margin-top:6px;"></textarea>
+            </div>
+
+
+            <div style="margin-bottom: 1rem;">
+                <label for="description"><strong>Business Description</strong></label>
+
+                <textarea
+                    id="description"
+                    name="description"
+                    rows="4"
+                    placeholder="Tell us about your products or services"
+                    style="width:100%; padding:12px; margin-top:6px;"></textarea>
+            </div>
+
+
+            <button
+                type="submit"
+                class="btn-primary"
+                style="border:none; cursor:pointer; padding:12px 24px;">
+                Submit Vendor Registration
+            </button>
+
+        </form>
+
+        <p style="margin-top: 1.5rem; color: var(--text-light); font-size: 0.9rem;">
+            Note: This registration form is currently a website interface.
+            Submission functionality can be connected to the Vehicle Sathi backend in the future.
+        </p>
+
+    </div>
+
+</section>
+
+
+<section class="section">
+
+    <h2 class="section-title">Why Join Vehicle Sathi?</h2>
+
+    <div style="max-width: 800px; margin: auto;">
+
+        <ul style="line-height: 2; color: var(--text-light);">
+
+            <li>Reach vehicle owners through the Vehicle Sathi platform.</li>
+
+            <li>Showcase your automotive products and business.</li>
+
+            <li>Build your business presence in your local city.</li>
+
+            <li>Help customers find vehicle products more easily.</li>
+
+            <li>Become part of a growing vehicle-service ecosystem.</li>
+
+        </ul>
+
+    </div>
+
+</section>
+
+
+<footer>
+
+    <div class="footer-grid">
+
+        <div class="footer-col">
+            <h4>Vehicle Sathi</h4>
+            <p>Your Friendly Vehicle Partner</p>
+        </div>
+
+
+        <div class="footer-col">
+
+            <h4>Quick Links</h4>
+
+            <ul>
+                <li><a href="index.html">Home</a></li>
+                <li><a href="cities.html">Cities Directory</a></li>
+                <li><a href="formmechanics.html">For Mechanics</a></li>
+                <li><a href="vendor.html">For Vendors</a></li>
+                <li><a href="about.html">About Us</a></li>
+            </ul>
+
+        </div>
+
+
+        <div class="footer-col">
+
+            <h4>Legal & Support</h4>
+
+            <ul>
+                <li><a href="privacy.html">Privacy Policy</a></li>
+                <li><a href="terms.html">Terms & Conditions</a></li>
+                <li><a href="contact.html">Contact Us</a></li>
+            </ul>
+
+        </div>
+
+
+        <div class="footer-col">
+
+            <h4>Get the Mobile App</h4>
+
+            <a
+                href="https://play.google.com/store/apps/details?id=com.vehiclesathi_app"
+                class="btn-secondary"
+                target="_blank"
+                rel="noopener">
+                Google Play
+            </a>
+
+        </div>
+
+    </div>
+
+
+    <div class="footer-bottom">
+
+        &copy;
+        <span id="current-year"></span>
+        Vehicle Sathi. All rights reserved.
+
+    </div>
+
+</footer>
+
+
+<script src="script.js"></script>
+
+</body>
+                                                                        </html>
